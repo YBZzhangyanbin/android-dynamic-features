@@ -39,6 +39,8 @@ private const val packageName = "com.google.android.samples.dynamicfeatures.onde
 
 private const val instantPackageName = "com.google.android.samples.instantdynamicfeatures"
 
+private const val denamicPackageName = "com.example.dynamic_feature_zyb"
+
 private const val kotlinSampleClassname = "$packageName.KotlinSampleActivity"
 
 private const val javaSampleClassname = "$packageName.JavaSampleActivity"

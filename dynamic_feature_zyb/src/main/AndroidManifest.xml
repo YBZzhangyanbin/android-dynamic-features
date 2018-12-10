@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.example.dynamic_feature_zyb">
+
+    <dist:module
+        dist:instant="false"
+        dist:onDemand="true"
+        dist:title="@string/title_dynamic_feature_zyb">
+        <dist:fusing dist:include="true" />          <!--针对4.4以下版本是否支持app的运行,true4.4.以下版本会运行一个综合的包-->
+
+    </dist:module>
+</manifest>
+
+
